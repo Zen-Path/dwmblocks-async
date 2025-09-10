@@ -27,6 +27,6 @@
     X("", "sb-news",        60 * 5,    6) \
     /* X("", "sb-mail",        60 * 5,    7) */ \
     /* X("", "sb-pacup",       60 * 600,  8) */ \
-    X("", "cat /tmp/recordingicon 2>/dev/null; true", 0, 9) \
+    X("", "sb-recording", 0, 9) \
 
 #endif  // CONFIG_H
