@@ -109,6 +109,8 @@ int signal_handler_process(signal_handler *const handler, timer *const timer) {
             // fall through
         case SIGINT:
             return 1;
+        default:
+            break;
     }
 
     for (unsigned short i = 0; i < handler->block_count; ++i) {

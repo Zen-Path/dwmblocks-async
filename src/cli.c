@@ -5,7 +5,7 @@
 #include <stdbool.h>
 #include <stdio.h>
 
-cli_arguments cli_parse_arguments(const char *const argv[], const int argc) {
+cli_arguments cli_parse_arguments(const char* const argv[], const int argc) {
     errno = 0;
     cli_arguments args = {
         .is_debug_mode = false,
@@ -13,7 +13,7 @@ cli_arguments cli_parse_arguments(const char *const argv[], const int argc) {
 
     int opt = -1;
     opterr = 0;  // Suppress getopt's built-in invalid opt message
-    while ((opt = getopt(argc, (char *const *)argv, "dh")) != -1) {
+    while ((opt = getopt(argc, (char* const*)argv, "dh")) != -1) {
         switch (opt) {
             case 'd':
                 args.is_debug_mode = true;
