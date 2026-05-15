@@ -21,7 +21,7 @@
 /*   icon, command,      interval,   signal */ \
     X("", "sb-date",        15,        1) \
     /* X("", "sb-battery",     15,        2) */ \
-    X("", "sb-volume",      0,         3) \
+    X("", "sb-sound",      0,         3) \
     X("", "sb-network",    15,        4) \
     X("", "sb-todos",       60 * 1,    5) \
     X("", "sb-rss",        60 * 5,    6) \
