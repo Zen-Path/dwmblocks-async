@@ -23,7 +23,7 @@
     /* X("", "sb-battery",     15,        2) */ \
     X("", "sb-volume",      0,         3) \
     X("", "sb-network",    15,        4) \
-    X("", "sb-tasks",       60 * 1,    5) \
+    X("", "sb-todos",       60 * 1,    5) \
     X("", "sb-rss",        60 * 5,    6) \
     /* X("", "sb-mail",        60 * 5,    7) */ \
     /* X("", "sb-pacup",       60 * 600,  8) */ \
